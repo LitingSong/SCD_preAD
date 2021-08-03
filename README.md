@@ -1,5 +1,5 @@
 ---
-title: "SCD_preAD--README"
+title: "SCD_preAD—-README"
 author: "Liting Song"
 date: "2021/08/02"
 output: html_document
@@ -9,11 +9,16 @@ output: html_document
 Source code of the manuscript **Impaired type I interferon signaling activity implicated in the peripheral blood transcriptome of preclinical Alzheimer’s disease**
 
 # Content
-* s1.R: source code for data preprocessing
-* s2.R: source code for generating and combining seurat objects for each dataset, and removing batch effects
-* s3.R: source code for identification of cell subtypes and marker genes
-* s4.R: source code for generating Figures in papers.
-
+* mrna: source codes for RNA-seq data quality control,mapping, quantification, and identification of local splicing clusters 
+* mrna: source codes for miRNA-seq data quality control,mapping and quantification
+* preprocess and demographic characteristics.R: source codes for demographic characteristics, Table 1, Figure S1
+* mRNA_deseq2.R: source codes for differential expression analysis of mRNA
+* figure2.R: source code for generating Figures 2, S2, S3
+* figure3.R: source code for generating Figures 3, S4, S5
+* figure4_lnc.R: source code for generating Figures 4A-D
+* figure4_mirna.R: source code for generating Figures 4E-H
+* figure5_wgcna.R: source code for generating Figures 5A-C, S8
+* figure5_adni.R: source code for generating Figures 5D-F.
 
 # Reference
 If you found this code useful, please cite the following paper:
